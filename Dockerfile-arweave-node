@@ -33,9 +33,9 @@ RUN apt install -y esl-erlang=1:22.3.4.9-1
 
 # RUN wget -q -O arweave-testnet.tar.gz https://arweave.net/m1yHyHttpBzg5oJhPEV3NC7uhRHDZ3S4rPQNCwC5r3Q && tar -zxf ./arweave-testnet.tar.gz -C /opt/arweave/
 
-COPY arweave-2.4.0.0.tar.gz /opt/
+COPY arweave-2.4.1.0.tar.gz /opt/
 
-RUN tar -xvf /opt/arweave-2.4.0.0.tar.gz -C /opt/arweave/    
+RUN tar -xvf /opt/arweave-2.4.1.0.tar.gz -C /opt/arweave/    
 
 COPY start_w_epmd.sh /opt/arweave/bin/
 
