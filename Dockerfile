@@ -1,6 +1,6 @@
  ### ARWEAVE ####
 # file: Dockerfile
-FROM amd64/ubuntu:20.04
+FROM ubuntu:20.04
 
 # RUN apk update && apk add --no-cache openssh
 RUN apt install --fix-broken
